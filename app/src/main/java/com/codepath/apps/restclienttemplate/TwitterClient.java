@@ -59,7 +59,7 @@ public class TwitterClient extends OAuthBaseClient {
 		// Can specify query string params directly or through RequestParams.
 		RequestParams params = new RequestParams();
 		params.put("count", 25);
-		params.put("max_id", 1);
+		params.put("max_id", maxId);
 		client.get(apiUrl, params, handler);
 	}
 	//now we can call this method in Timeline Activity to get HomeTimeline
