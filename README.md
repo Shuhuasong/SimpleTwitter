@@ -33,6 +33,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<img src= "http://g.recordit.co/hnIWBFsj0Z.gif" title= "Video Walkthrough" alt= "Video Walkthrough" width=400>
+
 <img src= "https://recordit.co/2vUrSanRFl.gif" title= "Video Walkthrough" alt= "Video Walkthrough" width=400>
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
