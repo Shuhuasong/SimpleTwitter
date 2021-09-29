@@ -62,6 +62,14 @@ public class TwitterClient extends OAuthBaseClient {
 		params.put("max_id", maxId);
 		client.get(apiUrl, params, handler);
 	}
+
+	public void publishTweets(String tweetContent, JsonHttpResponseHandler handler) {
+		String apiUrl = getApiUrl("statuses/update.json");
+		// Can specify query string params directly or through RequestParams.
+		RequestParams params = new RequestParams();
+		params.put("status", tweetContent);
+		client.post(apiUrl, params, "", handler);
+	}
 	//now we can call this method in Timeline Activity to get HomeTimeline
 
 	/* 1. Define the endpoint URL with getApiUrl and pass a relative path to the endpoint

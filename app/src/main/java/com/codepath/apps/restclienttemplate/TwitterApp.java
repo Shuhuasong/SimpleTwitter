@@ -32,6 +32,7 @@ public class TwitterApp extends Application {
         Stetho.initializeWithDefaults(this);
     }
 
+    //call this from Activity/UI
     public static TwitterClient getRestClient(Context context) {
         return (TwitterClient) TwitterClient.getInstance(TwitterClient.class, context);
     }
